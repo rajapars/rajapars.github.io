@@ -80,7 +80,7 @@ a {
   font-size: 9pt;
 }
 .img-circle {
-  width: 40mm;
+  width: 55mm;
   border-radius: 50%;
   margin-top: 8mm;
   margin-bottom: 4mm;
@@ -91,9 +91,10 @@ a {
   margin: 0 4.5mm;
   padding: 3mm;
   border: 1px #e5e5e5 solid;
+  line-height: 5mm;
 }
 .details-title {
-  padding: 4mm 0 2mm 0;
+  padding: 6mm 0 3mm 0;
   color: Grey;
 }
 .summary-title {
@@ -175,18 +176,20 @@ a {
   margin-top: 6mm;
   margin-bottom: 3mm;
   margin-left: -7mm;
-  background-color: #ffcccc;
+  background-color: #e8f5e9;
   padding-right: 24mm;
   width: fit-content;
   height: 11mm;
   border-top-right-radius: 5.5mm;
   border-bottom-right-radius: 5.5mm;
-  color: #ff5050;
+  color: #388e3c;
   display: flex;
 }
 .content-title > img {
-  display: inline;
-  margin: auto 7mm;
+  display: inline-block;
+  margin: -4mm 5mm;
+  width: 15mm;
+  height: 15mm;
 }
 .content-title > span {
   margin: auto;
