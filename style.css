@@ -11,7 +11,7 @@ body {
 }
 a {
   text-decoration: none;
-  color: blue;
+  color: #2196f3;
 }
 
 /* Page Format */
@@ -76,7 +76,7 @@ a {
   width: 33%;
   height: 100%;
   text-align: center;
-  background-color: #f3f3f3;
+  background-color: #f5f5f5;
   font-size: 9pt;
 }
 .img-circle {
@@ -98,7 +98,7 @@ a {
   color: Grey;
 }
 .summary-title {
-  padding: 2mm 12mm 1mm 12mm;
+  padding: 2mm 12mm 0 12mm;
   color: Grey;
 }
 .details-skill {
@@ -127,11 +127,11 @@ a {
   line-height: 1.5rem;
 }
 .contents > .name {
-  background-color: #063d71;
+  background-color: #4caf50;
   color: white;
   margin: 5mm;
   padding: 6mm 1mm;
-  font-size: 18pt;
+  font-size: 22pt;
   font-weight: 300;
   letter-spacing: 0.1em;
   text-align: center;
@@ -140,13 +140,14 @@ a {
 }
 .contents > .title {
   margin: 5mm;
-  border: 1px solid #d3d3d3;
+  border: 1px solid #03a9f4;
   height: 12mm;
   border-radius: 6mm;
   display: block;
   padding: 2.5mm 3mm 2mm 5mm;
   letter-spacing: 0.1em;
   font-size: 12pt;
+  box-shadow: 0 0 4px 0 #03a9f4;
 }
 .blink {
   animation: 1s linear infinite condemned_blink_effect;
